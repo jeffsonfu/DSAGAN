@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="47570c84-6698-440d-ab17-04e77cecbe4f" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/ganfuse$loss.coverage" NAME="loss Coverage Results" MODIFIED="1572260485418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ganfuse$test.coverage" NAME="test Coverage Results" MODIFIED="1593352800720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ganfuse$disease.coverage" NAME="training Coverage Results" MODIFIED="1575172794811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ganfuse$training.coverage" NAME="lossimg Coverage Results" MODIFIED="1593510263830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/lapsrn_pytorch_master$test.coverage" NAME="test Coverage Results" MODIFIED="1557494697646" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pfuse___$train.coverage" NAME="train Coverage Results" MODIFIED="1561001245205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ganfuzzy$lossimg.coverage" NAME="training Coverage Results" MODIFIED="1592543827481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ganfuzzy$training.coverage" NAME="test Coverage Results" MODIFIED="1592799476928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gan$training.coverage" NAME="test Coverage Results" MODIFIED="1576661645677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ganfuse$lossimg.coverage" NAME="test Coverage Results" MODIFIED="1593526274770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gan$train.coverage" NAME="test Coverage Results" MODIFIED="1573989039053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/fuse$train.coverage" NAME="disease Coverage Results" MODIFIED="1572059124507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ganfuse$train.coverage" NAME="test Coverage Results" MODIFIED="1574241203071" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DSAGAN$test.coverage" NAME="test Coverage Results" MODIFIED="1601289718993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/lapsrn$train.coverage" NAME="test Coverage Results" MODIFIED="1557668011141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/kfuse___$test.coverage" NAME="test Coverage Results" MODIFIED="1569722536114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/msgan$lossimg.coverage" NAME="training Coverage Results" MODIFIED="1599529067040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/msgan$training.coverage" NAME="test Coverage Results" MODIFIED="1600394470207" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/msgan$test.coverage" NAME="test Coverage Results" MODIFIED="1600420267121" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/lapsrn_pytorch_master$data.coverage" NAME="test Coverage Results" MODIFIED="1552913899296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/kfuse$test.coverage" NAME="test Coverage Results" MODIFIED="1569684146361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gan$test.coverage" NAME="test Coverage Results" MODIFIED="1576638558418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ganfuzzy$test.coverage" NAME="training Coverage Results" MODIFIED="1592763150585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ufuse$test.coverage" NAME="test Coverage Results" MODIFIED="1560685176491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ufuse$train.coverage" NAME="test Coverage Results" MODIFIED="1560691415177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gan$lossimg.coverage" NAME="test Coverage Results" MODIFIED="1576465995063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/kfuse$train.coverage" NAME="train Coverage Results" MODIFIED="1569076464721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-407">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/mod.py" />
+        <option value="$PROJECT_DIR$/lossimg.py" />
+        <option value="$PROJECT_DIR$/train.py" />
+        <option value="$PROJECT_DIR$/disease.py" />
+        <option value="$PROJECT_DIR$/loss.py" />
+        <option value="$PROJECT_DIR$/model.py" />
+        <option value="$PROJECT_DIR$/dataset.py" />
+        <option value="$PROJECT_DIR$/data.py" />
+        <option value="$PROJECT_DIR$/training.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1940" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="DSAGAN" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DSAGAN" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../msgan" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="ganfuse" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="47570c84-6698-440d-ab17-04e77cecbe4f" name="Default Changelist" comment="" />
+      <created>1552911806190</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1552911806190</updated>
+      <workItem from="1552911807810" duration="2254000" />
+      <workItem from="1553044516520" duration="215000" />
+      <workItem from="1556281862963" duration="3164000" />
+      <workItem from="1557308560967" duration="8288000" />
+      <workItem from="1557375571351" duration="613000" />
+      <workItem from="1557383933530" duration="25180000" />
+      <workItem from="1557448822085" duration="506000" />
+      <workItem from="1557475059152" duration="7165000" />
+      <workItem from="1557485508518" duration="9032000" />
+      <workItem from="1557639720872" duration="23687000" />
+      <workItem from="1557721834679" duration="163000" />
+      <workItem from="1557723638233" duration="515000" />
+      <workItem from="1557816648071" duration="990000" />
+      <workItem from="1560651588102" duration="26865000" />
+      <workItem from="1560685459719" duration="6210000" />
+      <workItem from="1560850223748" duration="4205000" />
+      <workItem from="1560950537111" duration="5895000" />
+      <workItem from="1560993295060" duration="8038000" />
+      <workItem from="1561010757784" duration="5921000" />
+      <workItem from="1561027079771" duration="313000" />
+      <workItem from="1561108917999" duration="16193000" />
+      <workItem from="1561340195051" duration="786000" />
+      <workItem from="1561361765997" duration="2367000" />
+      <workItem from="1561364632804" duration="3000" />
+      <workItem from="1561375470337" duration="885000" />
+      <workItem from="1561378008907" duration="705000" />
+      <workItem from="1561378857591" duration="5817000" />
+      <workItem from="1561432104322" duration="4000" />
+      <workItem from="1561443243939" duration="20000" />
+      <workItem from="1561465551901" duration="9044000" />
+      <workItem from="1561517515765" duration="2611000" />
+      <workItem from="1561521209295" duration="3710000" />
+      <workItem from="1561530991834" duration="2664000" />
+      <workItem from="1561557579819" duration="2302000" />
+      <workItem from="1561597921918" duration="253000" />
+      <workItem from="1568556616618" duration="618000" />
+      <workItem from="1568601011535" duration="717000" />
+      <workItem from="1568634995503" duration="230000" />
+      <workItem from="1568687080276" duration="6210000" />
+      <workItem from="1569073490588" duration="3108000" />
+      <workItem from="1569499353840" duration="64000" />
+      <workItem from="1569675735740" duration="8095000" />
+      <workItem from="1569719141815" duration="3499000" />
+      <workItem from="1569722738674" duration="31000" />
+      <workItem from="1569754384605" duration="2436000" />
+      <workItem from="1570024252843" duration="6991000" />
+      <workItem from="1570072030940" duration="3357000" />
+      <workItem from="1570089422792" duration="12202000" />
+      <workItem from="1570109272172" duration="785000" />
+      <workItem from="1570347152860" duration="1604000" />
+      <workItem from="1570430537423" duration="775000" />
+      <workItem from="1570518870087" duration="249000" />
+      <workItem from="1570523003786" duration="4586000" />
+      <workItem from="1570533668364" duration="2706000" />
+      <workItem from="1570538378257" duration="238000" />
+      <workItem from="1570539262047" duration="633000" />
+      <workItem from="1571625814550" duration="42000" />
+      <workItem from="1571906449825" duration="2607000" />
+      <workItem from="1571924943013" duration="1010000" />
+      <workItem from="1571968288499" duration="3250000" />
+      <workItem from="1571973974696" duration="35580000" />
+      <workItem from="1572057343957" duration="2244000" />
+      <workItem from="1572059670356" duration="1474000" />
+      <workItem from="1572093404592" duration="1684000" />
+      <workItem from="1572250100241" duration="7650000" />
+      <workItem from="1572427379275" duration="67000" />
+      <workItem from="1572441795290" duration="223000" />
+      <workItem from="1573093760665" duration="5705000" />
+      <workItem from="1573204054643" duration="4730000" />
+      <workItem from="1573296151053" duration="9879000" />
+      <workItem from="1573353313074" duration="3119000" />
+      <workItem from="1573368363602" duration="16055000" />
+      <workItem from="1573435514956" duration="7293000" />
+      <workItem from="1573452441983" duration="12182000" />
+      <workItem from="1573541183103" duration="7240000" />
+      <workItem from="1573627137977" duration="2341000" />
+      <workItem from="1573812407543" duration="2958000" />
+      <workItem from="1573908145304" duration="6551000" />
+      <workItem from="1573955734592" duration="13771000" />
+      <workItem from="1573986698495" duration="2999000" />
+      <workItem from="1574145706674" duration="50043000" />
+      <workItem from="1574322782341" duration="3404000" />
+      <workItem from="1574331907242" duration="2874000" />
+      <workItem from="1574346125717" duration="2830000" />
+      <workItem from="1574384110502" duration="33285000" />
+      <workItem from="1574473377190" duration="6511000" />
+      <workItem from="1574500268364" duration="2838000" />
+      <workItem from="1574564402593" duration="261000" />
+      <workItem from="1574655090646" duration="1559000" />
+      <workItem from="1574818829129" duration="218000" />
+      <workItem from="1574851090322" duration="4430000" />
+      <workItem from="1574902893882" duration="9875000" />
+      <workItem from="1574918422851" duration="7798000" />
+      <workItem from="1574927177677" duration="240000" />
+      <workItem from="1575018622811" duration="8295000" />
+      <workItem from="1575080762902" duration="7357000" />
+      <workItem from="1575093185034" duration="7210000" />
+      <workItem from="1575167113461" duration="6170000" />
+      <workItem from="1575184541594" duration="10861000" />
+      <workItem from="1575195674891" duration="1811000" />
+      <workItem from="1575199670594" duration="1205000" />
+      <workItem from="1576066319501" duration="11379000" />
+      <workItem from="1576112519035" duration="1951000" />
+      <workItem from="1576117523798" duration="7064000" />
+      <workItem from="1576138474015" duration="412000" />
+      <workItem from="1576293550069" duration="1404000" />
+      <workItem from="1576295544627" duration="23000" />
+      <workItem from="1576464335665" duration="1718000" />
+      <workItem from="1576566349683" duration="3416000" />
+      <workItem from="1576635600520" duration="2940000" />
+      <workItem from="1576638827950" duration="21574000" />
+      <workItem from="1576745858148" duration="2478000" />
+      <workItem from="1576921353066" duration="6857000" />
+      <workItem from="1577431338960" duration="17838000" />
+      <workItem from="1577534561319" duration="1200000" />
+      <workItem from="1577621809675" duration="136000" />
+      <workItem from="1577627781882" duration="536000" />
+      <workItem from="1577628420297" duration="29000" />
+      <workItem from="1577800470187" duration="1614000" />
+      <workItem from="1578192132693" duration="5957000" />
+      <workItem from="1578387007534" duration="3390000" />
+      <workItem from="1590022291781" duration="8000000" />
+      <workItem from="1590046772863" duration="6266000" />
+      <workItem from="1590151523597" duration="1883000" />
+      <workItem from="1590153697063" duration="1955000" />
+      <workItem from="1590155743877" duration="2016000" />
+      <workItem from="1590196774125" duration="7449000" />
+      <workItem from="1590299503399" duration="667000" />
+      <workItem from="1590300222880" duration="125000" />
+      <workItem from="1590370117834" duration="18461000" />
+      <workItem from="1590472862227" duration="17562000" />
+      <workItem from="1590500588390" duration="3921000" />
+      <workItem from="1590543218640" duration="5762000" />
+      <workItem from="1590549159420" duration="29000" />
+      <workItem from="1590549760441" duration="76000" />
+      <workItem from="1590580725622" duration="6440000" />
+      <workItem from="1590629167010" duration="32897000" />
+      <workItem from="1590666972537" duration="7117000" />
+      <workItem from="1590714003043" duration="1758000" />
+      <workItem from="1590716317244" duration="12049000" />
+      <workItem from="1590731149871" duration="4517000" />
+      <workItem from="1590750558057" duration="1130000" />
+      <workItem from="1590754615430" duration="878000" />
+      <workItem from="1590801175185" duration="177000" />
+      <workItem from="1591068053483" duration="23823000" />
+      <workItem from="1591522714995" duration="13988000" />
+      <workItem from="1591711171395" duration="2693000" />
+      <workItem from="1591751325551" duration="3547000" />
+      <workItem from="1592206555866" duration="1972000" />
+      <workItem from="1592307783393" duration="2545000" />
+      <workItem from="1592313297553" duration="1341000" />
+      <workItem from="1592363788701" duration="155000" />
+      <workItem from="1592454362684" duration="636000" />
+      <workItem from="1592535553262" duration="868000" />
+      <workItem from="1592537962362" duration="883000" />
+      <workItem from="1592543542363" duration="413000" />
+      <workItem from="1592549888117" duration="667000" />
+      <workItem from="1592552833517" duration="2120000" />
+      <workItem from="1592629538377" duration="1405000" />
+      <workItem from="1592634137278" duration="871000" />
+      <workItem from="1592726309848" duration="2649000" />
+      <workItem from="1592730160557" duration="24454000" />
+      <workItem from="1592756527641" duration="448000" />
+      <workItem from="1592756996114" duration="1416000" />
+      <workItem from="1592761056036" duration="729000" />
+      <workItem from="1592762069837" duration="567000" />
+      <workItem from="1592762663059" duration="788000" />
+      <workItem from="1592764228702" duration="525000" />
+      <workItem from="1592792926889" duration="2360000" />
+      <workItem from="1592796767552" duration="53000" />
+      <workItem from="1592797077333" duration="783000" />
+      <workItem from="1592797976456" duration="1514000" />
+      <workItem from="1593248063324" duration="4115000" />
+      <workItem from="1593254178440" duration="15664000" />
+      <workItem from="1593307606518" duration="11402000" />
+      <workItem from="1593320904105" duration="11085000" />
+      <workItem from="1593332097624" duration="18841000" />
+      <workItem from="1593352776285" duration="188000" />
+      <workItem from="1593353097214" duration="1279000" />
+      <workItem from="1593402487147" duration="5671000" />
+      <workItem from="1593509283574" duration="1398000" />
+      <workItem from="1593513879561" duration="10325000" />
+      <workItem from="1593526480561" duration="24290000" />
+      <workItem from="1593593729610" duration="14393000" />
+      <workItem from="1593613808723" duration="1756000" />
+      <workItem from="1593653713612" duration="13772000" />
+      <workItem from="1593669363861" duration="13499000" />
+      <workItem from="1593683259152" duration="4336000" />
+      <workItem from="1593688854350" duration="5092000" />
+      <workItem from="1593694067534" duration="160000" />
+      <workItem from="1593927048984" duration="118000" />
+      <workItem from="1593927247189" duration="179000" />
+      <workItem from="1594973687563" duration="5677000" />
+      <workItem from="1596618491825" duration="4974000" />
+      <workItem from="1596680538736" duration="33718000" />
+      <workItem from="1596717933386" duration="1198000" />
+      <workItem from="1597411178602" duration="245000" />
+      <workItem from="1598066841555" duration="15000" />
+      <workItem from="1598322308692" duration="334000" />
+      <workItem from="1598360465348" duration="231000" />
+      <workItem from="1598360716033" duration="12000" />
+      <workItem from="1599053428671" duration="3437000" />
+      <workItem from="1599099876905" duration="702000" />
+      <workItem from="1599104585783" duration="169000" />
+      <workItem from="1599108674798" duration="229000" />
+      <workItem from="1599110834599" duration="432000" />
+      <workItem from="1599111318372" duration="112000" />
+      <workItem from="1599205233167" duration="326000" />
+      <workItem from="1599205809435" duration="1045000" />
+      <workItem from="1599211521350" duration="57000" />
+      <workItem from="1599214498767" duration="1270000" />
+      <workItem from="1599227728968" duration="150000" />
+      <workItem from="1599315043343" duration="149000" />
+      <workItem from="1599357153883" duration="123000" />
+      <workItem from="1599366133705" duration="3678000" />
+      <workItem from="1599391631700" duration="10000" />
+      <workItem from="1599466890928" duration="1499000" />
+      <workItem from="1599470713716" duration="133000" />
+      <workItem from="1599480970454" duration="439000" />
+      <workItem from="1599528851735" duration="304000" />
+      <workItem from="1599535106999" duration="161000" />
+      <workItem from="1599539914526" duration="720000" />
+      <workItem from="1599544600256" duration="353000" />
+      <workItem from="1599549914966" duration="543000" />
+      <workItem from="1599625968642" duration="867000" />
+      <workItem from="1599629479390" duration="1253000" />
+      <workItem from="1599652728568" duration="283000" />
+      <workItem from="1599909906769" duration="171000" />
+      <workItem from="1600048730139" duration="342000" />
+      <workItem from="1600074754067" duration="166000" />
+      <workItem from="1600089827483" duration="327000" />
+      <workItem from="1600090218700" duration="432000" />
+      <workItem from="1600092290877" duration="95000" />
+      <workItem from="1600137074543" duration="1514000" />
+      <workItem from="1600144415259" duration="161000" />
+      <workItem from="1600394263373" duration="263000" />
+      <workItem from="1600412470926" duration="1220000" />
+      <workItem from="1600420213171" duration="79000" />
+      <workItem from="1600943588553" duration="145000" />
+      <workItem from="1601193952095" duration="1967000" />
+      <workItem from="1601259745968" duration="6976000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1128979000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.36193028" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4966488" weight="0.2970297" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3295711" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5033512" side_tool="true" weight="0.2970297" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32956153" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32673267" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.3297587" />
+      <window_info anchor="right" id="Database" order="4" weight="0.3299356" />
+      <window_info anchor="right" id="LuaJ" order="5" weight="0.3299356" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2613941" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4966488" visible="true" weight="0.2970297" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3295711" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5033512" side_tool="true" weight="0.2970297" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32956153" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32673267" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.3297587" />
+      <window_info anchor="right" id="Database" order="4" weight="0.3299356" />
+      <window_info anchor="right" id="LuaJ" order="5" weight="0.3299356" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://C:/Anaconda3/Lib/site-packages/torch/utils/data/dataloader.py" />
+    <entry file="file://$PROJECT_DIR$/README.md" />
+    <entry file="file://C:/Anaconda3/Lib/site-packages/torch/nn/modules/module.py" />
+    <entry file="file://$PROJECT_DIR$/mod.py" />
+    <entry file="file://$PROJECT_DIR$/train.py" />
+    <entry file="file://$PROJECT_DIR$/loss.py" />
+    <entry file="file://$PROJECT_DIR$/disease.py" />
+    <entry file="file://$PROJECT_DIR$/lossimg.py" />
+    <entry file="file://C:/Anaconda3/Lib/site-packages/win32/lib/pywintypes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="127" selection-start-line="127" selection-end-line="127" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/training.py" />
+    <entry file="file://$PROJECT_DIR$/data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-256">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-389">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-407">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
